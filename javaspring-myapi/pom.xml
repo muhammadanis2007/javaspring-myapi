@@ -13,7 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>javaspring-myapi</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Demonstration project for Spring Boot BY Muhammad Anees</description>
 
 
 	<properties>
