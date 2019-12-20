@@ -68,7 +68,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
               <configuration>
-        <url>http://localhost:8880/manager/text</url>
+        <url>http://localhost:8889/manager/text</url>
         <server>tomcat</server>
         <username>manis</username>
         <password>admin</password>
