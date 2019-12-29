@@ -24,7 +24,7 @@ public class HomeController {
 		
 		model.addAttribute("message", "DevOps By Developer Gate way");
 		
-		return "/";
+		return "/home";
 	} 
 	
 	
