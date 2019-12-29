@@ -1,4 +1,4 @@
-package ids.myspringjava.controllers;
+package ids.myspringjava.javaspringmyapi.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
