@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HomeController {
 	
-	@GetMapping("/home")
+	@RequestMapping("/home")
 	public String HomeWelcome(ModelMap model) {
 		
 		System.out.println("Welcome HOME");
