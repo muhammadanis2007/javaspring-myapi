@@ -13,6 +13,7 @@ public class HomeController {
 		System.out.println("Welcome HOME");
 		
 		model.addAttribute("message", "DevOps By Developer Gate way");
+		
 		return "/home";
 	} 
 	
