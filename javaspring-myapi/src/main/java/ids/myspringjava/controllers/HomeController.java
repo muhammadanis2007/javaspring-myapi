@@ -9,6 +9,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HomeController {
 	
+	
+	@RequestMapping("/")
+	public String index() {
+		return "Spring Boot Example!!";
+	}
+	
+	
+	
 	@RequestMapping("/home")
 	public String HomeWelcome(ModelMap model) {
 		
@@ -19,10 +27,7 @@ public class HomeController {
 		return "/home";
 	} 
 	
-	@RequestMapping("/")
-	public String index() {
-		return "Spring Boot Example!!";
-	}
+	
 	
 	
 }
