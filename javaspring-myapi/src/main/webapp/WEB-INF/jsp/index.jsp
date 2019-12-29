@@ -36,7 +36,7 @@
 
 		<div class="starter-template">
 			<h1>Spring Boot Web JSP BY Muhammad Anees</h1>
-			<h2>Message: ${message}</h2>
+			<h2>Message:Welcome}</h2>
 		</div>
 
 	</div>
