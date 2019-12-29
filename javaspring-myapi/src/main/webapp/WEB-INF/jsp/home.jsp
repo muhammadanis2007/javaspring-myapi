@@ -8,6 +8,6 @@
 <title>HOME</title>
 </head>
 <body>
-<h1>WELCOME JAVA APP AT ${message}</h1>
+<h1>WELCOME JAVA APP Spring MVC Controller Class Value Displaying Here :  ${message}</h1>
 </body>
 </html>
