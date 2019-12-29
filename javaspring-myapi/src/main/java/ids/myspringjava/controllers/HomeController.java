@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
 	
 	
-	@RequestMapping("/")
+/*	@RequestMapping("/")
 	public String index() {
 		return "Spring Boot Example!!";
-	}
+	}*/
 	
 	
 	
@@ -24,7 +24,7 @@ public class HomeController {
 		
 		model.addAttribute("message", "DevOps By Developer Gate way");
 		
-		return "/home";
+		return "/";
 	} 
 	
 	
