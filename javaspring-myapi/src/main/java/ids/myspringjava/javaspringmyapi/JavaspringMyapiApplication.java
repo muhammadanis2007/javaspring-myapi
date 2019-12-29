@@ -7,12 +7,13 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("ids.*")
+@ComponentScan(basePackages= {"ids.myspringjava.*"})
 public class JavaspringMyapiApplication extends SpringBootServletInitializer {
 
 	
 	public static void main(String[] args) {
-		SpringApplication.run(JavaspringMyapiApplication.class, args);
+			SpringApplication.run(JavaspringMyapiApplication.class, args);
+		
 	}
 	
 	@Override
